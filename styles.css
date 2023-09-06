@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
@@ -11,7 +14,7 @@ header{
     margin: 40px 0px;
 }
 
-nav li{
+nav.nav-header li{
     color: rgba(36, 46, 82, 1);
     display: inline;
     font-size: 13px;
