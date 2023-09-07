@@ -22,7 +22,11 @@ nav.nav-header li{
     padding-left: 20px;
 }
 
-.buttom{
+nav.nav-header a{
+    text-decoration: none;
+}
+
+.boton{
     background-color: rgba(139, 72, 191, 1);
     color: white;
     font-size: 13px;
@@ -58,11 +62,15 @@ nav.nav-header li{
     margin: 30px 0px;
 }
 
+.first-section h3::after{
+    content: "!";
+}
+
 .first-section-text p{
     font-weight: 600;
 }
 
-.first-section-text .buttom{
+.first-section-text .boton{
     font-weight: 100;
     position: absolute;
     right: 0px;
@@ -259,7 +267,7 @@ footer{
     margin: 15%;
 }
     
-ul{
+.navfoot ul{
     list-style: none; 
     font-size: 16px;
     font-weight: 400;
