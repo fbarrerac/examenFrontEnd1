@@ -128,3 +128,212 @@ nav.nav-header li{
     color: rgba(179, 178, 183, 1);
 }
 
+
+
+
+
+
+
+h2{
+
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    padding: 5%;    
+}
+
+.bestmonth h3 {
+    display: block;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin: 10%;
+    padding-bottom: 1%;
+}
+    
+.bestmonth h4{
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    position: absolute;
+    bottom: 65%;
+    display: block;
+    left: 40%;
+    padding-bottom: 1%;
+}
+    
+.bestmonth{
+    padding: 1%;
+    margin-bottom: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bestmonth #articulos{
+       
+    padding: 1%;
+    display: flex;
+    justify-items: center;
+    margin: 1% 3% 1% 3% ;
+}
+
+.bestmonth p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center ;
+    color: #B9B9C1;
+    background-size: contain;
+    background-color: #FAFAFA;
+    display: block;
+    padding: 25% 5% 5% 5%;
+}
+
+.bestmonth article{
+    display: flex;
+    padding: 3% 0% 3% 0% ;
+    margin-bottom: 3%;
+    position: relative;
+    flex-direction: column;
+    height: 10%;
+    justify-items: center;
+    width: 50%;
+}
+
+.bestmonth article img{
+    position: absolute;
+    bottom: 80%;
+    display: block;
+    left: 40%;
+    padding-bottom: 1%;    
+}
+    
+.bestyear{
+    background-color:#8B48BF ;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.articulos{
+    display: flex;
+    justify-content: center;
+}
+    
+footer{
+    background-color: #1E1E26;
+    display: flex;
+    padding: 3%;
+    justify-content: space-around;
+}
+    
+.navfoot ul li a{
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+.logoynav{
+    width: 20%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.logoynav #redeslist{
+    display: block;
+    margin: 15%;
+}
+
+.logoynav #logo2{
+    display: block;
+    margin: 15%;
+}
+    
+ul{
+    list-style: none; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.navfoot{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;  
+}
+
+.navfoot1,.navfoot2{
+    display: block;
+    width: 5%;
+    padding:5%;
+}
+
+footer p{
+        
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #8C8C94;
+}
+
+.botonycopy{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+    
+.goforit button{
+    background-color: white;
+    border: none;
+    color: #8B48BF;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 0px 50px;
+    cursor: pointer;
+    border-radius: 15%/50%;    
+}
+
+.goforit button:hover {
+    background-color: #8B48BF;
+    color:  #1E1E26;
+    border-color: white;
+    border-style: groove;
+}
+    
+.more button {
+    background-color: #8B48BF ;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%/50%;  
+}
+    
+.more button:hover {
+    background-color:white ;
+    color: #8B48BF;
+    border-color: #8B48BF;
+    border-style: groove;
+}
