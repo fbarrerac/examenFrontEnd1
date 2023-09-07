@@ -30,6 +30,7 @@ nav.nav-header a{
     background-color: rgba(139, 72, 191, 1);
     color: white;
     font-size: 13px;
+    text-decoration: none;
 
     padding: 10px;
     margin: 0px 30px;
@@ -42,6 +43,14 @@ nav.nav-header a{
     height: 40px;
 
     border-radius: 30px;
+}
+
+.boton:hover{
+    border: 2px solid rgba(139, 72, 191, 1);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 300ms;
 }
 
 .first-section{
