@@ -199,6 +199,7 @@ h2{
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .bestmonth #articulos{
@@ -272,8 +273,12 @@ footer{
     flex-direction: column;   
 }
 
-.logoynav #redeslist{
+.logoynav{
     display: block;
+    margin: 15%;
+}
+
+#redeslist{
     margin: 15%;
 }
 
@@ -398,6 +403,10 @@ footer p{
     border-style: groove;
 }
 
+.copy{
+    display: none;
+}
+
 
 @media(max-width: 480px){
     .nav-header, header a.boton{
@@ -451,5 +460,88 @@ footer p{
 
     .third-section-block div p{
         padding: 0px 2rem;
+    }
+}
+
+@media(max-width: 480px){
+    #articulos .sanyo, #articulos .navarro{
+        display: none;
+    }
+
+    .bestmonth article p{
+        position: relative;
+        z-index: -1;
+        top: 50px;
+    }
+
+    #articulos{
+        justify-content: center;
+    }
+
+    .more{
+        position: relative;
+        top: 30px;
+    }
+
+    .bestyear{
+        background-color: #3cddf3;
+        flex-direction: column;
+    }
+
+    .goforit{
+        margin: 30px;
+    }
+
+    .goforit button{
+        background-color: rgb(35, 44, 80);
+        color: white;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botonycopy p{
+        display: none;
+    }
+
+    .copy{
+        display: flex;
+        margin: 40px 0px;
+    }
+
+    .botonycopy{
+        order: -2;
+    }
+
+    .navfoot{
+        order: -1;
+        width: 50%;
+        position: relative;
+        right: 50px;
+    }
+
+    #redeslist{
+        display: flex;
+        width: 80%;
+        margin-top: 50px;
+        position: relative;
+        right: 170px;
+    }
+
+    #redeslist a{
+        padding: 0px 30px;
+    }
+
+    #logo2{
+        order: 1;
+        width: 150px;
+        position: relative;
+        right: 40px;
+    }
+
+    .logoynav{
+        margin: 0px;
     }
 }
